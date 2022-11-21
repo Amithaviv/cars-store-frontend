@@ -1,0 +1,39 @@
+#carousel{
+background-color: darkgrey;
+width: 500%;
+}
+#crouselImg{
+    height: 500px;
+}
+#background{
+    height: 500px;
+    width:750px;
+}
+#elements{
+display: flex;
+}
+.carouselLine{
+    font-size: 40px;
+    font-weight: 600;
+}
+.container{
+    position: relative;
+    text-align:end;
+    color: black;
+    padding-right: 0px;
+padding-left: 0px;
+}
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 51.2%;
+    margin-top: 15px;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: white;
+    background-color: #3d6fac; 
+    border-radius: 8px;
+    padding: 14px 40px;
+    font-size: 22px;
+    font-weight: 600;
+  }

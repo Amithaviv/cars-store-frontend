@@ -4,9 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import Home from './components/Home';
+import Home from './components/home/Home';
+import { Navigate } from "react-router-dom";
+
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -28,6 +31,7 @@ function App() {
       </Navbar>
       <Routes>
             <Route element={<Home />} path="/Home"></Route>
+            <Route path="/" element={<Navigate to="/Home" />} />
     </Routes>
       </Router>
     </div>
