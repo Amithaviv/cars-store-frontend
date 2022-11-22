@@ -21,8 +21,9 @@ display: flex;
     text-align:end;
     color: black;
     padding-right: 0px;
-padding-left: 0px;
+    padding-left: 0px;
 }
+
 .centered {
     position:absolute;
     top: 50%;
@@ -36,4 +37,10 @@ padding-left: 0px;
     padding: 14px 40px;
     font-size: 22px;
     font-weight: 600;
+  }
+
+  .grid-container {
+    display: grid;
+    padding-right: 0px;
+    padding-left: 0px;
   }
