@@ -14,6 +14,8 @@ import {
 } from 'mdb-react-ui-kit';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'mdbreact/dist/css/mdb.css';
+import Buy from '../buy/Buy';
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function Home(){
         return (
@@ -57,7 +59,7 @@ function Home(){
         <span class="container">
         <img id="background" alt="img" src="https://media.istockphoto.com/id/184660076/photo/open-garage-door.jpg?s=612x612&w=0&k=20&c=FYPIe-6TLaVRZ_u3o5J-X8Y21dNRQKAdwJ6CecqMfI8=">
         </img>
-        <button class="centered">Buy Your New Car</button>
+        <Link to="/Buy"><button class="centered">Buy Your New Car</button></Link>
         </span>
         </div>
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>

@@ -6,7 +6,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from './components/home/Home';
 import { Navigate } from "react-router-dom";
-
+import Buy from './components/buy/Buy';
 
 function App() {
 
@@ -20,7 +20,9 @@ function App() {
           <Link to="/Home" type="button" id="HomeNavFont" className="nav-link active">
             Home
             </Link>
-            <Link to="/Home" type="button" id="BuyNavFont" className="nav-link active">Buy</Link>
+            <Link to="/Buy" type="button" id="BuyNavFont" className="nav-link active">
+            Buy
+            </Link>
             <Link to="/Home" type="button" id="AboutNavFont" className="nav-link active">
             About
             </Link>
@@ -32,6 +34,9 @@ function App() {
       <Routes>
             <Route element={<Home />} path="/Home"></Route>
             <Route path="/" element={<Navigate to="/Home" />} />
+    </Routes>
+    <Routes>
+            <Route element={<Buy />} path="/Buy"></Route>
     </Routes>
       </Router>
     </div>
