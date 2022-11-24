@@ -1,0 +1,98 @@
+#card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#accountImg {
+    width: 50px;
+    height: 50px;
+}
+
+#cartImg {
+    width: 50px;
+    height: 50px;
+    align-self: right;
+    margin-right: 20px;
+}
+
+#btnLogin {
+    background-color: rgb(19, 218, 232);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+#shopImg {
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
+
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-title{
+    font-weight: 700;
+    font-family: Comic Sans MS;
+}
+#cards{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#imgHeight{
+    min-height: 160px;
+    max-height: 160px;
+    width: 280px;
+}
+
+#cardHeight{
+    min-height:400px;
+    max-height:400px;
+    width: 280px;
+}
+#count{
+    display: flex;
+    justify-content: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+.single-product {
+    margin: 2rem
+}
+#cartCardBtn{
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 50px;
+    margin-top: 5px;
+    background-color:white;
+}
+body{
+    background-color: grey;
+}
