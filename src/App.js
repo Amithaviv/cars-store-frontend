@@ -26,6 +26,7 @@ function App() {
             <Link to="/Home" type="button" id="AboutNavFont" className="nav-link active">
             About
             </Link>
+            <Link id="loginBtn" to="/Home" type="button" className="nav-link active">Register/Login</Link>
             <Navbar.Brand id="cartBtn" type="button"><img typeof='button' alt="cart" id="cart" src="cart.png"></img></Navbar.Brand>
             <Navbar.Brand id="userBtn" type="button"><img typeof='button' alt="user" id="user" src="user.png"></img></Navbar.Brand>
           </Nav>

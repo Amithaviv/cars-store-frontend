@@ -15,35 +15,54 @@ body{
   background-color: #72a6be;
 }
 .me-auto{
-  font-family: "Maven Pro",sans-serif;
+  font-family: Freedom;
   font-weight: 700;
 }
 #cartBtn{
-  margin-left: 230%;
+  margin-left: 3%;
+}
+#loginBtn{
+  margin-left: 29%;
+  font-size: 40px;
 }
 #cart{
   height: 40px;
   width: 40px;
 }
 #cartBtn{
-  margin-top: 1%;
+  margin-top: 1.5%;
 }
 #userBtn{
-  margin-left: 7%;
-  margin-top: 1%;
+  margin-left: 3%;
+  margin-top: 1.5%;
 }
 #user{
   height: 40px;
   width: 40px;
 }
 #HomeNavFont{
-  font-size: 25px;
+  font-size: 40px;
 }
 #BuyNavFont{
-  font-size: 25px;
+  font-size: 40px;
   margin-left: 3%;
 }
 #AboutNavFont{
-  font-size: 25px;
+  font-size: 40px;
   margin-left: 3%;
+}
+@font-face {
+  font-family: "Freedom";   
+  src: local("Freedom"),
+    url("C:\Users\Amit\Desktop\Experis academy\react_folder\Web_App_Project\online_store_client\online-store-client\src\fonts\Freedom-10eM.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Goldea";   
+  src: local("Goldea"),
+    url("C:\Users\Amit\Desktop\Experis academy\react_folder\Web_App_Project\online_store_client\online-store-client\src\fonts\GoldleafBoldPersonalUseBold-eZ4dO.ttf") format("truetype");
+}
+@font-face {
+  font-family: "euro";   
+  src: local("euro"),
+    url("C:\Users\Amit\Desktop\Experis academy\react_folder\Web_App_Project\online_store_client\online-store-client\src\fonts\GoldleafBoldPersonalUseBold-eZ4dO.ttf") format("truetype");
 }
